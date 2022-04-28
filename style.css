@@ -1,0 +1,15 @@
+.bigH3 {
+    font-size: 30px;
+    color:rgb(255, 255, 255)
+}
+.smallText {
+    color:rgb(255, 255, 255)
+} 
+
+.MainBigButtons {
+    color:rgb(255, 255, 255);
+    background:grey;
+    border-radius: 5px;
+    border-color: orange;
+    padding: 9px 50px;
+}

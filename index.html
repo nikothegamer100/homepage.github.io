@@ -1,0 +1,67 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>nikothegamer</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+    <body style="background-color:rgb(0, 0, 0);">
+
+        <script>
+            let mode = "light"
+            function toggleMode() {
+                if(mode == "light") {
+                    mode="dark"
+                    document.body.style.backgroundColor = "black";
+                    document.getElementsByClassName("bigH3").style.color = "white";
+
+
+                } else {
+                    mode="light"
+                    document.body.style.backgroundColor = "white";
+                    document.getElementsByClassName("bigH3").style.color = "black";
+                }
+            }
+
+            function changetab(tab) {
+                window.location = "./misc/"+tab
+            }
+        </script>
+        <h3 class="smallText">Oh yeah keep in mind this page is inspired by: </h3>
+        
+<a class="links" href="https://fur.dev">fur.dev</a>
+<div style="position: absolute; top: 5px; margin-left: 400px">
+<button class="MainBigButtons" onclick="changetab(`credits.html`)">Credits</button>
+<button class="MainBigButtons" onclick="changetab(`gallery.html`)">Gallery</button>
+</div>
+        <center><h1 class="bigH3">Nikothegamer</h1></center>
+        <center><h3 class="bigH3">Just an average human being who likes to code and play.</h3></center>
+        <center><h3 class="bigH3">My big projects listed below:</h3></center>
+        <button class="Settings" onclick="toggleMode()" hidden=true>Dark Mode</button>
+        <div style="background: linear-gradient(75deg, #ff3b3b, #ff7b00); border-radius: 10px">
+            <br>
+            <h1 class="smallText">Energy Corp</h1>
+            <h2 class="smallText">Energy corp is little roblox scifi game im working on.</h2>
+            <h2 class="smallText">What to do?</h2>
+            <h3 class="smallText">control reactor,</h3>
+            <h3 class="smallText">do maintainance,</h3>
+            <h3 class="smallText">work on the facility,</h3>
+            <h3 class="smallText">melt the core,</h3>
+            <h3 class="smallText">explore secrets around the facility,</h3>
+</div>
+<div style="background: linear-gradient(75deg, #ff3b3b, #ff7b00); border-radius: 10px;">
+    <br>
+    <h1 class="smallText">Talos</h1>
+    <h2 class="smallText">Might be temporary name, but its an admin im working on.</h2>
+    
+    <h3 class="smallText">Includes: </h3>
+    <h3 class="smallText">moderation</h3>
+    <h3 class="smallText">fun commands</h3>
+    <h3 class="smallText">misc</h3>
+    <h2 class="smallText">(i might integrate it with discord.js later, but atleast not now)</h2>
+</div>
+
+
+
+    </body>
+</html>
